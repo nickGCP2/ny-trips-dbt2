@@ -1,10 +1,10 @@
 version: 2
 
 sources: 
-    - name: staging
-      database: ny-trips-de
-      schema: ny_trips_all
+  - name: staging
+    database: ny-trips-de
+    schema: ny_trips_all
 
-      tables:
-        - name: green_taxi_external_table
-        - name: yellow_taxi_external_table
+    tables:
+      - name: green_taxi_external_table
+      - name: yellow_taxi_external_table
