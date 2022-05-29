@@ -44,7 +44,7 @@ from trip_data
 where rn = 1
 
 -- dbt build --m <model.sql> --var 'is_test_run :false'
-{% if var('is_test_run', default=true) %}
+{% if var('is_test_run', default=false) %}
 
   limit 100
 
