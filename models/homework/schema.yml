@@ -1,0 +1,9 @@
+version: 2
+
+sources: 
+  - name: homework
+    database: ny-trips-de
+    schema: ny_trips_all
+
+    tables:
+      - name: fhv_taxi_external_table
